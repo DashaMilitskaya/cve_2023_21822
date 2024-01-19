@@ -1,0 +1,10 @@
+﻿  main.cpp
+C:\Users\Даша\source\repos\sort_stack\sort_stack\main.cpp(231,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\Даша\source\repos\sort_stack\sort_stack\main.cpp(224,13): warning C4244: инициализация: преобразование "ULONGLONG" в "DWORD", возможна потеря данных
+C:\Users\Даша\source\repos\sort_stack\sort_stack\main.cpp(236): message : выполняется компиляция ссылки на экземпляр шаблон функции "DWORD exec_time<main::<lambda_fbe3a35d6f29698445da51a96dc3e9f2>>(F)"
+          with
+          [
+              F=main::<lambda_fbe3a35d6f29698445da51a96dc3e9f2>
+          ]
+C:\Users\Даша\source\repos\sort_stack\sort_stack\main.cpp(226,29): warning C4244: return: преобразование "ULONGLONG" в "DWORD", возможна потеря данных
+  sort_stack.vcxproj -> C:\Users\Даша\source\repos\sort_stack\x64\Debug\sort_stack.exe

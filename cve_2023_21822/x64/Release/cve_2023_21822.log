@@ -1,0 +1,27 @@
+﻿  main.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\ddraw.h(41,1): warning C4005: CO_E_NOTINITIALIZED: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winerror.h(30638): message : см. предыдущее определение "CO_E_NOTINITIALIZED"
+C:\Users\Даша\source\repos\cve_2023_21822\cve_2023_21822\cve_poc_2023-21822\nt.h(137,80): warning C4244: аргумент: преобразование "SIZE_T" в "ULONG", возможна потеря данных
+C:\Users\Даша\source\repos\cve_2023_21822\cve_2023_21822\cve_poc_2023-21822\nt.h(148,82): warning C4244: аргумент: преобразование "SIZE_T" в "ULONG", возможна потеря данных
+C:\Users\Даша\source\repos\cve_2023_21822\cve_2023_21822\cve_poc_2023-21822\nt.h(168,72): warning C4244: аргумент: преобразование "SIZE_T" в "ULONG", возможна потеря данных
+C:\Users\Даша\source\repos\cve_2023_21822\cve_2023_21822\cve_poc_2023-21822\nt.h(179,74): warning C4244: аргумент: преобразование "SIZE_T" в "ULONG", возможна потеря данных
+C:\Users\Даша\source\repos\cve_2023_21822\cve_2023_21822\cve_poc_2023-21822\main.cpp(112,16): warning C4477: "printf": в строке форматирования "%llx" требуется аргумент типа "unsigned __int64", но вариативный аргумент "1" имеет тип "DWORD"
+C:\Users\Даша\source\repos\cve_2023_21822\cve_2023_21822\cve_poc_2023-21822\main.cpp(112,16): message : рекомендуется использовать "%lx" в строке форматирования
+C:\Users\Даша\source\repos\cve_2023_21822\cve_2023_21822\cve_poc_2023-21822\main.cpp(128,16): warning C4477: "printf": в строке форматирования "%llx" требуется аргумент типа "unsigned __int64", но вариативный аргумент "1" имеет тип "DWORD"
+C:\Users\Даша\source\repos\cve_2023_21822\cve_2023_21822\cve_poc_2023-21822\main.cpp(128,16): message : рекомендуется использовать "%lx" в строке форматирования
+C:\Users\Даша\source\repos\cve_2023_21822\cve_2023_21822\cve_poc_2023-21822\main.cpp(102,29): warning C4101: bytesRead: неиспользованная локальная переменная
+C:\Users\Даша\source\repos\cve_2023_21822\cve_2023_21822\cve_poc_2023-21822\main.cpp(144,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Даша\source\repos\cve_2023_21822\cve_2023_21822\cve_poc_2023-21822\main.cpp(212,13): warning C4477: "wprintf": в строке форматирования "%x" требуется аргумент типа "unsigned int", но вариативный аргумент "1" имеет тип "HBITMAP"
+C:\Users\Даша\source\repos\cve_2023_21822\cve_2023_21822\cve_poc_2023-21822\main.cpp(212,13): warning C4313: wprintf: конфликт "%x" в строке формата с аргументом 1 типа "HBITMAP"
+C:\Users\Даша\source\repos\cve_2023_21822\cve_2023_21822\cve_poc_2023-21822\main.cpp(213,13): warning C4477: "wprintf": в строке форматирования "%x" требуется аргумент типа "unsigned int", но вариативный аргумент "1" имеет тип "HBITMAP"
+C:\Users\Даша\source\repos\cve_2023_21822\cve_2023_21822\cve_poc_2023-21822\main.cpp(213,13): warning C4313: wprintf: конфликт "%x" в строке формата с аргументом 1 типа "HBITMAP"
+C:\Users\Даша\source\repos\cve_2023_21822\cve_2023_21822\cve_poc_2023-21822\main.cpp(430,52): warning C4474: "wprintf" : для строки формата передано слишком много аргументов
+C:\Users\Даша\source\repos\cve_2023_21822\cve_2023_21822\cve_poc_2023-21822\main.cpp(430,52): message : заполнители и их параметры ожидают переменное число аргументов в количестве 0, но было предоставлено 1
+C:\Users\Даша\source\repos\cve_2023_21822\cve_2023_21822\cve_poc_2023-21822\main.cpp(446,40): warning C4474: "printf" : для строки формата передано слишком много аргументов
+C:\Users\Даша\source\repos\cve_2023_21822\cve_2023_21822\cve_poc_2023-21822\main.cpp(446,40): message : заполнители и их параметры ожидают переменное число аргументов в количестве 0, но было предоставлено 1
+  Создание кода
+  5 of 30 functions (16.7%) were compiled, the rest were copied from previous compilation.
+    1 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  cve_2023_21822.vcxproj -> C:\Users\Даша\source\repos\cve_2023_21822\x64\Release\cve_2023_21822.exe
